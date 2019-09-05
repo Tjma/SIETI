@@ -51,20 +51,20 @@ async function playTest(url) {
   await page.goto('https://sais.up.edu.ph/psp/ps/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_MY_CRSEHIST.GBL?PORTALPARAM_PTCNAV=HC_SSS_MY_CRSEHIST_GBL&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=CO_EMPLOYEE_SELF_SERVICE&EOPP.SCLabel=Self%20Service&EOPP.SCPTfname=CO_EMPLOYEE_SELF_SERVICE&FolderPath=PORTAL_ROOT_OBJECT.CO_EMPLOYEE_SELF_SERVICE.HCCC_ACADEMIC_RECORDS.HC_SSS_MY_CRSEHIST_GBL&IsFolder=false');
   dumpFrameTree(page.mainFrame(), '');
   const frame = page.frames().find(frame => frame.name() === 'TargetContent');
-  // const text = await frame.$eval('table.PSLEVEL1GRIDWBO > tbody', element => element.textContent);
+  
   const data = await frame.evaluate(() => {
-    const grades = Array.from(document.querySelectorAll('table.PSLEVEL1GRIDWBO > tbody'))
+    const grades = Array.from(document.querySelectorAll('table.PSLEVEL1GRIDWBO > tbody > tr > td'))
     return grades.map(data => data.innerText);
   })
-
   console.log("FRAME CONTENT ", data);
+
 
   // **** SCREENSHOT ****
   await page.screenshot({path: 'screenshot.png'});
   console.log("DONE");
 }
 
-function dumpFrameTree(frame, indent) {
+function dumpFrameTree (frame, indent) {
   for(let child of frame.childFrames()) {
     dumpFrameTree(child, indent + " ");
   }
