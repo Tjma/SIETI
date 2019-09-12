@@ -56,7 +56,38 @@ async function playTest(url) {
     const grades = Array.from(document.querySelectorAll('table.PSLEVEL1GRIDWBO > tbody > tr > td'))
     return grades.map(data => data.innerText);
   })
-  console.log("FRAME CONTENT ", data);
+  
+  let formatGrade = [];
+  let counter = 1;
+
+  for(i = 0; i < data.length; i += 7) {
+    formatGrade.push(
+      { 
+        id: counter,
+        gradeItem: [
+          {
+            course: data[i],
+            description: data [i + 1],
+            term: data [i + 2],
+            grade: data [i + 3],
+            units: data[i + 4],
+          }
+        ]
+      }
+    );
+    counter++;
+  }
+  // console.log(formatGrade);
+
+  const fs = require('fs');
+  const jsonContent = JSON.stringify(formatGrade);
+  fs.writeFile("info.json", jsonContent, 'utf8', function (err) {
+    if (err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+  });
 
 
   // **** SCREENSHOT ****
