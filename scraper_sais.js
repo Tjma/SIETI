@@ -10,6 +10,7 @@ const A_SELF_SERVICE = '#ptnav2pglt > #ptnav2pgltbody > #ptnav2tree #fldra_CO_EM
 async function startBrowser() {
   const browser = await puppeteer.launch({
     ignoreDefaultArgs: ['--disable-extensions'],
+    headless: false,
   });
   const page = await browser.newPage();
   
@@ -30,15 +31,15 @@ async function playTest(url) {
 
   await page.goto(url);
   await page.click(INPUT_USERNAME_SELECTOR);
-  await page.waitFor(3000);
+  await page.waitFor(1000);
   await page.keyboard.type(C.username);
-  await page.waitFor(3000);
+  await page.waitFor(1000);
   await page.click(INPUT_PASSWORD_SELECTOR);
-  await page.waitFor(3000);
+  await page.waitFor(1000);
   await page.keyboard.type(C.password);
-  await page.waitFor(3000);
+  await page.waitFor(1000);
   await page.click(BUTTON_LOGIN_SELECTOR);
-  await page.waitFor(3000);
+  await page.waitFor(1000);
  
   // **** FOR SELF SERVICE ****
   // await page.waitForSelector(A_SELF_SERVICE);
@@ -63,15 +64,15 @@ async function playTest(url) {
 
   await page.mouse.click(INPUT_COURSE_SUBJECT.x, INPUT_COURSE_SUBJECT.y);
   await page.keyboard.type('CMSC');
-  await page.waitFor(3000);
+  await page.waitFor(1000);
 
   await page.mouse.click(INPUT_COURSE_NUMBER.x, INPUT_COURSE_NUMBER.y);
-  await page.waitFor(2000);
+  await page.waitFor(2500);
   await page.keyboard.type('11');
-  await page.waitFor(3000);
+  await page.waitFor(1000);
 
-  // await page.mouse.click(BUTTON_SEARCH.x, BUTTON_SEARCH.y);
-  // await page.waitFor(5000);
+  await page.mouse.click(BUTTON_SEARCH.x, BUTTON_SEARCH.y);
+  await page.waitFor(1000);
 
 
 
