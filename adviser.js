@@ -12,7 +12,7 @@ async function startBrowser() {
     headless: false,
     ignoreDefaultArgs: ['--disable-extensions'],
   });
-  const page = await browser.newPage(); 
+  const page = await browser.newPage();
   
   return {browser, page};
 }
@@ -70,7 +70,7 @@ async function playTest(url) {
             course: data[i],
             description: data [i + 1],
             term: data [i + 2],
-            grade: '1' + data[i + 3], // +1 for obfuscation. para dili klaro grado
+            grade: data [i + 3],
             units: data[i + 4],
           }
         ]
@@ -94,17 +94,13 @@ async function playTest(url) {
   // **** SCREENSHOT ****
   await page.screenshot({path: 'screenshot.png'});
   console.log("DONE");
-  await page.waitFor(5000);
-
 }
 
-
-
-// function dumpFrameTree (frame, indent) {
-//   for(let child of frame.childFrames()) {
-//     dumpFrameTree(child, indent + " ");
-//   }
-// }
+function dumpFrameTree (frame, indent) {
+  for(let child of frame.childFrames()) {
+    dumpFrameTree(child, indent + " ");
+  }
+}
 
 (async () => {
   await playTest("https://sais.up.edu.ph/psp/ps/?cmd=login&languageCd=ENG");
