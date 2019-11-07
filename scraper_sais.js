@@ -85,12 +85,54 @@ async function playTest(url) {
   dumpFrameTree(page.mainFrame(), '');
   const frame = page.frames().find(frame => frame.name() === 'TargetContent');
 
-  const data = await frame.evaluate(() => {
-    const classes = Array.from(document.querySelectorAll('table.PSLEVEL1SCROLLAREABODYWBO > tbody > tr'))
-    return classes.map(data => data.innerText);
+  const data1 = await frame.evaluate(() => {
+    const classes = Array.from(document.querySelectorAll('table.PSLEVEL1SCROLLAREABODYWBO > tbody > tr > td > table > tbody > tr > td'))
+    return classes.map(data2 => data2.innerText);
   })
 
-  console.log(data)
+  const data2 = await frame.evaluate(() => {
+    const classes = Array.from(document.querySelectorAll('table.PSLEVEL1SCROLLAREABODYWBO > tbody > tr > td > table > tbody > tr > td > div > table > tbody > tr > td'))
+    return classes.map(data1 => data1.innerText);
+  })
+
+  let section = []
+  let formatSchedule = [];
+
+  for(i = 9; i < data1.length; i += 14) {
+    section.push(data1[i])
+  }
+  console.log(section[2])
+
+  counter = 0;
+
+  for(i = 0; i < data2.length; i += 4) {
+    formatSchedule.push(
+      { 
+        sectionID: section[counter],
+        sectionDetails: [
+          {
+            dates_and_times: data2[i],
+            room: data2[i + 1],
+            instructor: data2[i + 2],
+            meeting_dates: data2[i + 3],
+          }
+        ]
+      }
+    );
+    counter++;
+  }
+  // console.log(formatSchedule);
+``
+  const fs = require('fs');
+  const jsonContent = JSON.stringify(formatSchedule);
+  fs.writeFile("info.json", jsonContent, 'utf8', function (err) {
+    if (err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+  });
+  
 
   // ** SCREENSHOT **
   await page.screenshot({path: 'screenshot.png'});
