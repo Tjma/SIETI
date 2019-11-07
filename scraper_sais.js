@@ -40,34 +40,23 @@ async function playTest(url) {
   await page.waitFor(3000);
   await page.click(BUTTON_LOGIN_SELECTOR);
   await page.waitFor(3000);
- 
-  // ** FOR SELF SERVICE **
-  // await page.waitForSelector(A_SELF_SERVICE);
-  // await page.click(A_SELF_SERVICE);
-  // await page.waitFor(5000);
 
   // ** SELF SERVICE > CLASS SEARCH **
   await page.goto('https://sais.up.edu.ph/psp/ps/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.CLASS_SEARCH.GBL?PORTALPARAM_PTCNAV=HC_CLASS_SEARCH&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=CO_EMPLOYEE_SELF_SERVICE&EOPP.SCLabel=Class%20Search%20%2f%20Browse%20Catalog&EOPP.SCFName=HCCC_SS_CATALOG&EOPP.SCSecondary=true&EOPP.SCPTfname=HCCC_SS_CATALOG&FolderPath=PORTAL_ROOT_OBJECT.CO_EMPLOYEE_SELF_SERVICE.HCCC_SS_CATALOG.HC_CLASS_SEARCH&IsFolder=false');
   
   await page.waitFor(3000);
-  //await page.mouse.click(INPUT_COURSE_SUBJECT.x, INPUT_COURSE_SUBJECT.y);
   for (let i = 0; i < 29; i++) {
     await page.keyboard.press("Tab");
-    console.log(i);
-   //await page.waitFor(500);
   }
   await page.waitFor(3000);
-  await page.keyboard.type('CMSC');
+  await page.keyboard.type(C.subject);
   await page.keyboard.press("Tab");
   
-
-  //await page.mouse.click(INPUT_COURSE_NUMBER.x, INPUT_COURSE_NUMBER.y);
   await page.waitFor(3000);
   for (let i = 29; i < 30; i++) {
     await page.keyboard.press("Tab");
-    console.log(i);
   }
-  await page.keyboard.type('11');
+  await page.keyboard.type(C.subjectnumber);
   await page.waitFor(3000);
 
   await page.keyboard.press('Enter');
@@ -77,7 +66,6 @@ async function playTest(url) {
 
   for (let i = 0; i < 7; i++) {
     await page.keyboard.press("Tab");
-    // console.log(i);
   }
   await page.keyboard.press('Enter');
   await page.waitFor(3000);
@@ -85,15 +73,10 @@ async function playTest(url) {
   dumpFrameTree(page.mainFrame(), '');
   const frame = page.frames().find(frame => frame.name() === 'TargetContent');
 
-  
-  
-
   const courseTitle = await frame.evaluate(() => {
     const course = Array.from(document.querySelectorAll('table > tbody > tr > td span.SSSHYPERLINKBOLD'))
     return course.map(course => course.innerText);
   })
-
-  console.log(courseTitle)
 
   const data1 = await frame.evaluate(() => {
     const classes = Array.from(document.querySelectorAll('table.PSLEVEL1SCROLLAREABODYWBO > tbody > tr > td > table > tbody > tr > td'))
@@ -104,8 +87,6 @@ async function playTest(url) {
     const classes = Array.from(document.querySelectorAll('table.PSLEVEL1SCROLLAREABODYWBO > tbody > tr > td > table > tbody > tr > td > div > table > tbody > tr > td'))
     return classes.map(data2 => data2.innerText);
   })
-
-  console.log(data1)
 
   let section = []
   let formatSchedule = [];
