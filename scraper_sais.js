@@ -77,7 +77,7 @@ async function playTest(url) {
 
   for (let i = 0; i < 7; i++) {
     await page.keyboard.press("Tab");
-    console.log(i);
+    // console.log(i);
   }
   await page.keyboard.press('Enter');
   await page.waitFor(3000);
@@ -85,15 +85,27 @@ async function playTest(url) {
   dumpFrameTree(page.mainFrame(), '');
   const frame = page.frames().find(frame => frame.name() === 'TargetContent');
 
+  
+  
+
+  const courseTitle = await frame.evaluate(() => {
+    const course = Array.from(document.querySelectorAll('table > tbody > tr > td span.SSSHYPERLINKBOLD'))
+    return course.map(course => course.innerText);
+  })
+
+  console.log(courseTitle)
+
   const data1 = await frame.evaluate(() => {
     const classes = Array.from(document.querySelectorAll('table.PSLEVEL1SCROLLAREABODYWBO > tbody > tr > td > table > tbody > tr > td'))
-    return classes.map(data2 => data2.innerText);
+    return classes.map(data1 => data1.innerText);
   })
 
   const data2 = await frame.evaluate(() => {
     const classes = Array.from(document.querySelectorAll('table.PSLEVEL1SCROLLAREABODYWBO > tbody > tr > td > table > tbody > tr > td > div > table > tbody > tr > td'))
-    return classes.map(data1 => data1.innerText);
+    return classes.map(data2 => data2.innerText);
   })
+
+  console.log(data1)
 
   let section = []
   let formatSchedule = [];
@@ -101,9 +113,15 @@ async function playTest(url) {
   for(i = 9; i < data1.length; i += 14) {
     section.push(data1[i])
   }
-  console.log(section[2])
 
   counter = 0;
+
+  formatSchedule.push(
+    {
+      courseTitle: courseTitle[0]
+    }
+  )
+
 
   for(i = 0; i < data2.length; i += 4) {
     formatSchedule.push(
@@ -121,8 +139,7 @@ async function playTest(url) {
     );
     counter++;
   }
-  // console.log(formatSchedule);
-``
+
   const fs = require('fs');
   const jsonContent = JSON.stringify(formatSchedule);
   fs.writeFile("info.json", jsonContent, 'utf8', function (err) {

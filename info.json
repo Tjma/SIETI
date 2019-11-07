@@ -1,1 +1,82 @@
-[{"sectionID":"A2-LAB(12897)","sectionDetails":[{"dates_and_times":"MoTh 3:00PM - 4:30PM","room":"AS 241 (Computer Laboratory)","instructor":"NARESSA BELLE SARIPADA","meeting_dates":"06/24/2019 - 12/20/2019"}]},{"sectionID":"C-LEC(12901)","sectionDetails":[{"dates_and_times":"TuFr 2:00PM - 3:00PM","room":"AS 306 (Classroom)","instructor":"ALVIN RAY YU","meeting_dates":"06/24/2019 - 12/20/2019"}]},{"sectionID":"C1-LAB(12902)","sectionDetails":[{"dates_and_times":"TuFr 9:00AM - 10:30AM","room":"AS 241 (Computer Laboratory)","instructor":"NARESSA BELLE SARIPADA","meeting_dates":"06/24/2019 - 12/20/2019"}]},{"sectionID":"C2-LAB(12903)","sectionDetails":[{"dates_and_times":"TuFr 3:00PM - 4:30PM","room":"AS 241 (Computer Laboratory)","instructor":"ALVIN RAY YU","meeting_dates":"06/24/2019 - 12/20/2019"}]},{"sectionID":"D-LEC(13031)","sectionDetails":[{"dates_and_times":"MoTh 8:00AM - 9:00AM","room":"AS 306 (Classroom)","instructor":"JOAN MARIS ROSOS","meeting_dates":"06/24/2019 - 12/20/2019"}]},{"sectionID":"D1-LAB(13032)","sectionDetails":[{"dates_and_times":"MoTh 9:00AM - 10:30AM","room":"AS 241 (Computer Laboratory)","instructor":"JOAN MARIS ROSOS","meeting_dates":"06/24/2019 - 12/20/2019"}]},{"sectionID":"D2-LAB(13033)","sectionDetails":[{"dates_and_times":"MoTh 10:30AM - 12:00PM","room":"AS 241 (Computer Laboratory)","instructor":"JOAN MARIS ROSOS","meeting_dates":"06/24/2019 - 12/20/2019"}]}]
+[
+	{
+		"courseTitle": "CMSC   11 - Introduction to Computer Science"
+	},
+	{
+		"sectionID": "A2-LAB(12897)",
+		"sectionDetails": [
+			{
+				"dates_and_times": "MoTh 3:00PM - 4:30PM",
+				"room": "AS 241 (Computer Laboratory)",
+				"instructor": "NARESSA BELLE SARIPADA",
+				"meeting_dates": "06/24/2019 - 12/20/2019"
+			}
+		]
+	},
+	{
+		"sectionID": "C-LEC(12901)",
+		"sectionDetails": [
+			{
+				"dates_and_times": "TuFr 2:00PM - 3:00PM",
+				"room": "AS 306 (Classroom)",
+				"instructor": "ALVIN RAY YU",
+				"meeting_dates": "06/24/2019 - 12/20/2019"
+			}
+		]
+	},
+	{
+		"sectionID": "C1-LAB(12902)",
+		"sectionDetails": [
+			{
+				"dates_and_times": "TuFr 9:00AM - 10:30AM",
+				"room": "AS 241 (Computer Laboratory)",
+				"instructor": "NARESSA BELLE SARIPADA",
+				"meeting_dates": "06/24/2019 - 12/20/2019"
+			}
+		]
+	},
+	{
+		"sectionID": "C2-LAB(12903)",
+		"sectionDetails": [
+			{
+				"dates_and_times": "TuFr 3:00PM - 4:30PM",
+				"room": "AS 241 (Computer Laboratory)",
+				"instructor": "ALVIN RAY YU",
+				"meeting_dates": "06/24/2019 - 12/20/2019"
+			}
+		]
+	},
+	{
+		"sectionID": "D-LEC(13031)",
+		"sectionDetails": [
+			{
+				"dates_and_times": "MoTh 8:00AM - 9:00AM",
+				"room": "AS 306 (Classroom)",
+				"instructor": "JOAN MARIS ROSOS",
+				"meeting_dates": "06/24/2019 - 12/20/2019"
+			}
+		]
+	},
+	{
+		"sectionID": "D1-LAB(13032)",
+		"sectionDetails": [
+			{
+				"dates_and_times": "MoTh 9:00AM - 10:30AM",
+				"room": "AS 241 (Computer Laboratory)",
+				"instructor": "JOAN MARIS ROSOS",
+				"meeting_dates": "06/24/2019 - 12/20/2019"
+			}
+		]
+	},
+	{
+		"sectionID": "D2-LAB(13033)",
+		"sectionDetails": [
+			{
+				"dates_and_times": "MoTh 10:30AM - 12:00PM",
+				"room": "AS 241 (Computer Laboratory)",
+				"instructor": "JOAN MARIS ROSOS",
+				"meeting_dates": "06/24/2019 - 12/20/2019"
+			}
+		]
+	}
+]
