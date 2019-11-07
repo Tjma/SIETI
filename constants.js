@@ -1,6 +1,6 @@
 module.exports = {
-    username: 'adlumanta@up.edu.ph',
-    password: 'Sais_123456789',
+    username: '',
+    password: '',
     subject: 'CMSC',
     subjectnumber: '11'
   }
