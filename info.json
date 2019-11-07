@@ -1,1 +1,782 @@
-[{"id":1,"gradeItem":[{"course":"BIO 1","description":"Understanding Life","term":"Second Semester 2017-2018","grade":"2.50","units":"3.00"}]},{"id":2,"gradeItem":[{"course":"BOT 10","description":"General Botany","term":"Second Semester 2014-2015","grade":"2.75","units":"5.00"}]},{"id":3,"gradeItem":[{"course":"CHEM 11","description":"Chemistry 11","term":"Second Semester 2014-2015","grade":"3.00","units":"5.00"}]},{"id":4,"gradeItem":[{"course":"CMSC 105","description":"Statistics for Comp. Science","term":"Second Semester 2016-2017","grade":"2.75","units":"3.00"}]},{"id":5,"gradeItem":[{"course":"CMSC 11","description":"Intro to Computer Science","term":"First Semester 2015-2016","grade":"3.00","units":"3.00"}]},{"id":6,"gradeItem":[{"course":"CMSC 110","description":"Technical Writing for CS","term":"Second Semester 2016-2017","grade":"2.00","units":"3.00"}]},{"id":7,"gradeItem":[{"course":"CMSC 123","description":"Data Structures","term":"First Semester 2017-2018","grade":"3.00","units":"4.00"}]},{"id":8,"gradeItem":[{"course":"CMSC 125","description":"Operating Systems","term":"First Semester 2018-2019","grade":"2.50","units":"3.00"}]},{"id":9,"gradeItem":[{"course":"CMSC 126","description":"Web Engineering","term":"Second Semester 2018-2019","grade":"2.75","units":"3.00"}]},{"id":10,"gradeItem":[{"course":"CMSC 127","description":"File Processing & DB Systems","term":"Second Semester 2017-2018","grade":"2.25","units":"3.00"}]},{"id":11,"gradeItem":[{"course":"CMSC 128","description":"Introduction to Software Eng'g","term":"First Semester 2018-2019","grade":"2.50","units":"3.00"}]},{"id":12,"gradeItem":[{"course":"CMSC 130","description":"Logic Des.Dig. Comp. Circuits","term":"Second Semester 2016-2017","grade":"2.50","units":"3.00"}]},{"id":13,"gradeItem":[{"course":"CMSC 131","description":"Intro to Comp OrgMach-lev Prg","term":"First Semester 2017-2018","grade":"3.00","units":"3.00"}]},{"id":14,"gradeItem":[{"course":"CMSC 132","description":"Computer Architecture","term":"Second Semester 2017-2018","grade":"INC","units":"3.00"}]},{"id":15,"gradeItem":[{"course":"CMSC 137","description":"Data Comm. and Networking","term":"Semester 1 2019-2020","grade":" ","units":"3.00"}]},{"id":16,"gradeItem":[{"course":"CMSC 141","description":"Automata and Language Theory","term":"Second Semester 2017-2018","grade":"5.00","units":"3.00"}]},{"id":17,"gradeItem":[{"course":"CMSC 141","description":"Automata and Language Theory","term":"Second Semester 2018-2019","grade":"2.75","units":"3.00"}]},{"id":18,"gradeItem":[{"course":"CMSC 142","description":"Design & Analysis of Algorithm","term":"First Semester 2018-2019","grade":"DRP","units":"3.00"}]},{"id":19,"gradeItem":[{"course":"CMSC 142","description":"Design & Analysis of Algorithm","term":"Semester 1 2019-2020","grade":" ","units":"3.00"}]},{"id":20,"gradeItem":[{"course":"CMSC 151","description":"Systems Analysis and Design","term":"Second Semester 2018-2019","grade":"2.75","units":"3.00"}]},{"id":21,"gradeItem":[{"course":"CMSC 165","description":"Intro to Project Management","term":"Second Semester 2018-2019","grade":"1.25","units":"3.00"}]},{"id":22,"gradeItem":[{"course":"CMSC 166","description":"Intro to Quality Concepts","term":"Semester 1 2019-2020","grade":" ","units":"3.00"}]},{"id":23,"gradeItem":[{"course":"CMSC 170","description":"Introduction to AI","term":"First Semester 2018-2019","grade":"2.75","units":"3.00"}]},{"id":24,"gradeItem":[{"course":"CMSC 179EAA","description":"Enterprise App Architecture","term":"Second Semester 2017-2018","grade":"2.75","units":"3.00"}]},{"id":25,"gradeItem":[{"course":"CMSC 192","description":"Ethical & Professional Issues","term":"Second Semester 2016-2017","grade":"1.75","units":"1.00"}]},{"id":26,"gradeItem":[{"course":"CMSC 195","description":"Practicum","term":"Mid-Year Term 2019","grade":"1.25","units":"3.00"}]},{"id":27,"gradeItem":[{"course":"CMSC 198.1","description":"Special Problem 1","term":"Semester 1 2019-2020","grade":" ","units":"2.00"}]},{"id":28,"gradeItem":[{"course":"CMSC 21","description":"Fundamentals of Programming","term":"Second Semester 2015-2016","grade":"5.00","units":"3.00"}]},{"id":29,"gradeItem":[{"course":"CMSC 21","description":"Fundamentals of Programming","term":"Second Semester 2016-2017","grade":"2.50","units":"3.00"}]},{"id":30,"gradeItem":[{"course":"CMSC 22","description":"Fund. of Object-oriented Prog.","term":"First Semester 2016-2017","grade":"2.25","units":"3.00"}]},{"id":31,"gradeItem":[{"course":"CMSC 56","description":"Discrete Math. Struct. in CS 1","term":"Second Semester 2015-2016","grade":"3.00","units":"3.00"}]},{"id":32,"gradeItem":[{"course":"CMSC 57","description":"Discrete Math. Struct. in CS 2","term":"First Semester 2016-2017","grade":"1.75","units":"3.00"}]},{"id":33,"gradeItem":[{"course":"COMM 1","description":"Communication Skills","term":"First Semester 2014-2015","grade":"1.75","units":"3.00"}]},{"id":34,"gradeItem":[{"course":"COMM 2","description":"Communication Skills","term":"Second Semester 2014-2015","grade":"2.75","units":"3.00"}]},{"id":35,"gradeItem":[{"course":"COMM 3","description":"Speech Communication","term":"First Semester 2017-2018","grade":"1.75","units":"3.00"}]},{"id":36,"gradeItem":[{"course":"ENVI SCI 10","description":"People and Environment","term":"Second Semester 2014-2015","grade":"2.25","units":"3.00"}]},{"id":37,"gradeItem":[{"course":"GEOL 11","description":"Principles of Geology","term":"First Semester 2014-2015","grade":"2.00","units":"3.00"}]},{"id":38,"gradeItem":[{"course":"HIST 1","description":"Philippine History","term":"First Semester 2014-2015","grade":"1.75","units":"3.00"}]},{"id":39,"gradeItem":[{"course":"HIST 2","description":"Asia and the World","term":"First Semester 2015-2016","grade":"2.25","units":"3.00"}]},{"id":40,"gradeItem":[{"course":"HUM 1","description":"Art, Society & the Individual","term":"Second Semester 2016-2017","grade":"2.00","units":"3.00"}]},{"id":41,"gradeItem":[{"course":"JAPANESE 10","description":"Elementary Japanese I","term":"First Semester 2017-2018","grade":"5.00","units":"3.00"}]},{"id":42,"gradeItem":[{"course":"LIT 1","description":"Literatures of the Philippines","term":"First Semester 2015-2016","grade":"2.25","units":"3.00"}]},{"id":43,"gradeItem":[{"course":"MATH 100","description":"Introduction to Calculus","term":"Second Semester 2015-2016","grade":"5.00","units":"4.00"}]},{"id":44,"gradeItem":[{"course":"MATH 100","description":"Introduction to Calculus","term":"First Semester 2017-2018","grade":"2.50","units":"4.00"}]},{"id":45,"gradeItem":[{"course":"MATH 11","description":"College Algebra","term":"First Semester 2014-2015","grade":"3.00","units":"3.00"}]},{"id":46,"gradeItem":[{"course":"MATH 14","description":"Plane Trigonometry","term":"Second Semester 2014-2015","grade":"4.00","units":"3.00"}]},{"id":47,"gradeItem":[{"course":"MATH 17","description":"Algebra and Trigonometry","term":"First Semester 2015-2016","grade":"5.00","units":"5.00"}]},{"id":48,"gradeItem":[{"course":"MATH 17","description":"Algebra and Trigonometry","term":"First Semester 2016-2017","grade":"3.00","units":"5.00"}]},{"id":49,"gradeItem":[{"course":"NAT SCI 1","description":"Natural Science I","term":"First Semester 2015-2016","grade":"2.25","units":"3.00"}]},{"id":50,"gradeItem":[{"course":"NSTPCWTS 1","description":"NSTP-CWTS 1","term":"First Semester 2014-2015","grade":"1.00","units":"3.00"}]},{"id":51,"gradeItem":[{"course":"NSTPCWTS 2","description":"NSTP-CWTS 2","term":"Second Semester 2014-2015","grade":"1.50","units":"3.00"}]},{"id":52,"gradeItem":[{"course":"PE 1","description":"Foundations of Phys Fitness","term":"First Semester 2014-2015","grade":"1.50","units":"2.00"}]},{"id":53,"gradeItem":[{"course":"PE 2BAD","description":"PE 2 (Badminton)","term":"First Semester 2015-2016","grade":"1.25","units":"2.00"}]},{"id":54,"gradeItem":[{"course":"PE 2SW","description":"PE 2 (Swimming)","term":"Second Semester 2014-2015","grade":"1.00","units":"2.00"}]},{"id":55,"gradeItem":[{"course":"PE 2VB","description":"PE 2 (Volleyball)","term":"Second Semester 2015-2016","grade":"1.25","units":"2.00"}]},{"id":56,"gradeItem":[{"course":"PHILO 1","description":"Philosophical Analysis","term":"First Semester 2016-2017","grade":"2.25","units":"3.00"}]},{"id":57,"gradeItem":[{"course":"PHYSICS 51","description":"General Physics I","term":"Second Semester 2015-2016","grade":"3.00","units":"3.00"}]},{"id":58,"gradeItem":[{"course":"PHYSICS 51.1","description":"General Physics I Laboratory","term":"Second Semester 2015-2016","grade":"2.00","units":"1.00"}]},{"id":59,"gradeItem":[{"course":"PHYSICS 52","description":"General Physics II","term":"First Semester 2016-2017","grade":"2.75","units":"3.00"}]},{"id":60,"gradeItem":[{"course":"PHYSICS 52.1","description":"General Physics II Laboratory","term":"First Semester 2016-2017","grade":"1.75","units":"1.00"}]},{"id":61,"gradeItem":[{"course":"PI 100","description":"The Life & Works of Jose Rizal","term":"First Semester 2018-2019","grade":"1.75","units":"3.00"}]},{"id":62,"gradeItem":[{"course":"SAS 1","description":"Self and Society","term":"Second Semester 2018-2019","grade":"2.50","units":"3.00"}]},{"id":63,"gradeItem":[{"course":"SOC SCI 1","description":"Foundations of Beh Sci","term":"Second Semester 2016-2017","grade":"2.25","units":"3.00"}]},{"id":64,"gradeItem":[{"course":"STS 40","description":"Science, Technology & Society","term":"Second Semester 2015-2016","grade":"2.00","units":"3.00"}]},{"id":65,"gradeItem":[{"course":"ZOO 10","description":"Fundamentals of Zoology","term":"First Semester 2014-2015","grade":"2.50","units":"5.00"}]}]
+[
+	{
+		"id": 1,
+		"gradeItem": [
+			{
+				"course": "BIO 1",
+				"description": "Understanding Life",
+				"term": "Second Semester 2017-2018",
+				"grade": "2.50",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"gradeItem": [
+			{
+				"course": "BOT 10",
+				"description": "General Botany",
+				"term": "Second Semester 2014-2015",
+				"grade": "2.75",
+				"units": "5.00"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"gradeItem": [
+			{
+				"course": "CHEM 11",
+				"description": "Chemistry 11",
+				"term": "Second Semester 2014-2015",
+				"grade": "3.00",
+				"units": "5.00"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"gradeItem": [
+			{
+				"course": "CMSC 105",
+				"description": "Statistics for Comp. Science",
+				"term": "Second Semester 2016-2017",
+				"grade": "2.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"gradeItem": [
+			{
+				"course": "CMSC 11",
+				"description": "Intro to Computer Science",
+				"term": "First Semester 2015-2016",
+				"grade": "3.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"gradeItem": [
+			{
+				"course": "CMSC 110",
+				"description": "Technical Writing for CS",
+				"term": "Second Semester 2016-2017",
+				"grade": "2.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"gradeItem": [
+			{
+				"course": "CMSC 123",
+				"description": "Data Structures",
+				"term": "First Semester 2017-2018",
+				"grade": "3.00",
+				"units": "4.00"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"gradeItem": [
+			{
+				"course": "CMSC 125",
+				"description": "Operating Systems",
+				"term": "First Semester 2018-2019",
+				"grade": "2.50",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"gradeItem": [
+			{
+				"course": "CMSC 126",
+				"description": "Web Engineering",
+				"term": "Second Semester 2018-2019",
+				"grade": "2.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"gradeItem": [
+			{
+				"course": "CMSC 127",
+				"description": "File Processing & DB Systems",
+				"term": "Second Semester 2017-2018",
+				"grade": "2.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 11,
+		"gradeItem": [
+			{
+				"course": "CMSC 128",
+				"description": "Introduction to Software Eng'g",
+				"term": "First Semester 2018-2019",
+				"grade": "2.50",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 12,
+		"gradeItem": [
+			{
+				"course": "CMSC 130",
+				"description": "Logic Des.Dig. Comp. Circuits",
+				"term": "Second Semester 2016-2017",
+				"grade": "2.50",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 13,
+		"gradeItem": [
+			{
+				"course": "CMSC 131",
+				"description": "Intro to Comp OrgMach-lev Prg",
+				"term": "First Semester 2017-2018",
+				"grade": "3.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 14,
+		"gradeItem": [
+			{
+				"course": "CMSC 132",
+				"description": "Computer Architecture",
+				"term": "Second Semester 2017-2018",
+				"grade": "3.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 15,
+		"gradeItem": [
+			{
+				"course": "CMSC 137",
+				"description": "Data Comm. and Networking",
+				"term": "Semester 1 2019-2020",
+				"grade": " ",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 16,
+		"gradeItem": [
+			{
+				"course": "CMSC 141",
+				"description": "Automata and Language Theory",
+				"term": "Second Semester 2017-2018",
+				"grade": "5.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 17,
+		"gradeItem": [
+			{
+				"course": "CMSC 141",
+				"description": "Automata and Language Theory",
+				"term": "Second Semester 2018-2019",
+				"grade": "2.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 18,
+		"gradeItem": [
+			{
+				"course": "CMSC 142",
+				"description": "Design & Analysis of Algorithm",
+				"term": "First Semester 2018-2019",
+				"grade": "DRP",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 19,
+		"gradeItem": [
+			{
+				"course": "CMSC 142",
+				"description": "Design & Analysis of Algorithm",
+				"term": "Semester 1 2019-2020",
+				"grade": " ",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 20,
+		"gradeItem": [
+			{
+				"course": "CMSC 151",
+				"description": "Systems Analysis and Design",
+				"term": "Second Semester 2018-2019",
+				"grade": "2.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 21,
+		"gradeItem": [
+			{
+				"course": "CMSC 165",
+				"description": "Intro to Project Management",
+				"term": "Second Semester 2018-2019",
+				"grade": "1.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 22,
+		"gradeItem": [
+			{
+				"course": "CMSC 166",
+				"description": "Intro to Quality Concepts",
+				"term": "Semester 1 2019-2020",
+				"grade": " ",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 23,
+		"gradeItem": [
+			{
+				"course": "CMSC 170",
+				"description": "Introduction to AI",
+				"term": "First Semester 2018-2019",
+				"grade": "2.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 24,
+		"gradeItem": [
+			{
+				"course": "CMSC 179EAA",
+				"description": "Enterprise App Architecture",
+				"term": "Second Semester 2017-2018",
+				"grade": "2.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 25,
+		"gradeItem": [
+			{
+				"course": "CMSC 192",
+				"description": "Ethical & Professional Issues",
+				"term": "Second Semester 2016-2017",
+				"grade": "1.75",
+				"units": "1.00"
+			}
+		]
+	},
+	{
+		"id": 26,
+		"gradeItem": [
+			{
+				"course": "CMSC 195",
+				"description": "Practicum",
+				"term": "Mid-Year Term 2019",
+				"grade": "1.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 27,
+		"gradeItem": [
+			{
+				"course": "CMSC 198.1",
+				"description": "Special Problem 1",
+				"term": "Semester 1 2019-2020",
+				"grade": " ",
+				"units": "2.00"
+			}
+		]
+	},
+	{
+		"id": 28,
+		"gradeItem": [
+			{
+				"course": "CMSC 21",
+				"description": "Fundamentals of Programming",
+				"term": "Second Semester 2015-2016",
+				"grade": "5.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 29,
+		"gradeItem": [
+			{
+				"course": "CMSC 21",
+				"description": "Fundamentals of Programming",
+				"term": "Second Semester 2016-2017",
+				"grade": "2.50",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 30,
+		"gradeItem": [
+			{
+				"course": "CMSC 22",
+				"description": "Fund. of Object-oriented Prog.",
+				"term": "First Semester 2016-2017",
+				"grade": "2.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 31,
+		"gradeItem": [
+			{
+				"course": "CMSC 56",
+				"description": "Discrete Math. Struct. in CS 1",
+				"term": "Second Semester 2015-2016",
+				"grade": "3.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 32,
+		"gradeItem": [
+			{
+				"course": "CMSC 57",
+				"description": "Discrete Math. Struct. in CS 2",
+				"term": "First Semester 2016-2017",
+				"grade": "1.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 33,
+		"gradeItem": [
+			{
+				"course": "COMM 1",
+				"description": "Communication Skills",
+				"term": "First Semester 2014-2015",
+				"grade": "1.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 34,
+		"gradeItem": [
+			{
+				"course": "COMM 2",
+				"description": "Communication Skills",
+				"term": "Second Semester 2014-2015",
+				"grade": "2.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 35,
+		"gradeItem": [
+			{
+				"course": "COMM 3",
+				"description": "Speech Communication",
+				"term": "First Semester 2017-2018",
+				"grade": "1.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 36,
+		"gradeItem": [
+			{
+				"course": "ENVI SCI 10",
+				"description": "People and Environment",
+				"term": "Second Semester 2014-2015",
+				"grade": "2.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 37,
+		"gradeItem": [
+			{
+				"course": "GEOL 11",
+				"description": "Principles of Geology",
+				"term": "First Semester 2014-2015",
+				"grade": "2.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 38,
+		"gradeItem": [
+			{
+				"course": "HIST 1",
+				"description": "Philippine History",
+				"term": "First Semester 2014-2015",
+				"grade": "1.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 39,
+		"gradeItem": [
+			{
+				"course": "HIST 2",
+				"description": "Asia and the World",
+				"term": "First Semester 2015-2016",
+				"grade": "2.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 40,
+		"gradeItem": [
+			{
+				"course": "HUM 1",
+				"description": "Art, Society & the Individual",
+				"term": "Second Semester 2016-2017",
+				"grade": "2.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 41,
+		"gradeItem": [
+			{
+				"course": "JAPANESE 10",
+				"description": "Elementary Japanese I",
+				"term": "First Semester 2017-2018",
+				"grade": "5.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 42,
+		"gradeItem": [
+			{
+				"course": "LIT 1",
+				"description": "Literatures of the Philippines",
+				"term": "First Semester 2015-2016",
+				"grade": "2.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 43,
+		"gradeItem": [
+			{
+				"course": "MATH 100",
+				"description": "Introduction to Calculus",
+				"term": "Second Semester 2015-2016",
+				"grade": "5.00",
+				"units": "4.00"
+			}
+		]
+	},
+	{
+		"id": 44,
+		"gradeItem": [
+			{
+				"course": "MATH 100",
+				"description": "Introduction to Calculus",
+				"term": "First Semester 2017-2018",
+				"grade": "2.50",
+				"units": "4.00"
+			}
+		]
+	},
+	{
+		"id": 45,
+		"gradeItem": [
+			{
+				"course": "MATH 11",
+				"description": "College Algebra",
+				"term": "First Semester 2014-2015",
+				"grade": "3.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 46,
+		"gradeItem": [
+			{
+				"course": "MATH 14",
+				"description": "Plane Trigonometry",
+				"term": "Second Semester 2014-2015",
+				"grade": "4.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 47,
+		"gradeItem": [
+			{
+				"course": "MATH 17",
+				"description": "Algebra and Trigonometry",
+				"term": "First Semester 2015-2016",
+				"grade": "5.00",
+				"units": "5.00"
+			}
+		]
+	},
+	{
+		"id": 48,
+		"gradeItem": [
+			{
+				"course": "MATH 17",
+				"description": "Algebra and Trigonometry",
+				"term": "First Semester 2016-2017",
+				"grade": "3.00",
+				"units": "5.00"
+			}
+		]
+	},
+	{
+		"id": 49,
+		"gradeItem": [
+			{
+				"course": "NAT SCI 1",
+				"description": "Natural Science I",
+				"term": "First Semester 2015-2016",
+				"grade": "2.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 50,
+		"gradeItem": [
+			{
+				"course": "NSTPCWTS 1",
+				"description": "NSTP-CWTS 1",
+				"term": "First Semester 2014-2015",
+				"grade": "1.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 51,
+		"gradeItem": [
+			{
+				"course": "NSTPCWTS 2",
+				"description": "NSTP-CWTS 2",
+				"term": "Second Semester 2014-2015",
+				"grade": "1.50",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 52,
+		"gradeItem": [
+			{
+				"course": "PE 1",
+				"description": "Foundations of Phys Fitness",
+				"term": "First Semester 2014-2015",
+				"grade": "1.50",
+				"units": "2.00"
+			}
+		]
+	},
+	{
+		"id": 53,
+		"gradeItem": [
+			{
+				"course": "PE 2BAD",
+				"description": "PE 2 (Badminton)",
+				"term": "First Semester 2015-2016",
+				"grade": "1.25",
+				"units": "2.00"
+			}
+		]
+	},
+	{
+		"id": 54,
+		"gradeItem": [
+			{
+				"course": "PE 2SW",
+				"description": "PE 2 (Swimming)",
+				"term": "Second Semester 2014-2015",
+				"grade": "1.00",
+				"units": "2.00"
+			}
+		]
+	},
+	{
+		"id": 55,
+		"gradeItem": [
+			{
+				"course": "PE 2VB",
+				"description": "PE 2 (Volleyball)",
+				"term": "Second Semester 2015-2016",
+				"grade": "1.25",
+				"units": "2.00"
+			}
+		]
+	},
+	{
+		"id": 56,
+		"gradeItem": [
+			{
+				"course": "PHILO 1",
+				"description": "Philosophical Analysis",
+				"term": "First Semester 2016-2017",
+				"grade": "2.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 57,
+		"gradeItem": [
+			{
+				"course": "PHYSICS 51",
+				"description": "General Physics I",
+				"term": "Second Semester 2015-2016",
+				"grade": "3.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 58,
+		"gradeItem": [
+			{
+				"course": "PHYSICS 51.1",
+				"description": "General Physics I Laboratory",
+				"term": "Second Semester 2015-2016",
+				"grade": "2.00",
+				"units": "1.00"
+			}
+		]
+	},
+	{
+		"id": 59,
+		"gradeItem": [
+			{
+				"course": "PHYSICS 52",
+				"description": "General Physics II",
+				"term": "First Semester 2016-2017",
+				"grade": "2.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 60,
+		"gradeItem": [
+			{
+				"course": "PHYSICS 52.1",
+				"description": "General Physics II Laboratory",
+				"term": "First Semester 2016-2017",
+				"grade": "1.75",
+				"units": "1.00"
+			}
+		]
+	},
+	{
+		"id": 61,
+		"gradeItem": [
+			{
+				"course": "PI 100",
+				"description": "The Life & Works of Jose Rizal",
+				"term": "First Semester 2018-2019",
+				"grade": "1.75",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 62,
+		"gradeItem": [
+			{
+				"course": "SAS 1",
+				"description": "Self and Society",
+				"term": "Second Semester 2018-2019",
+				"grade": "2.50",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 63,
+		"gradeItem": [
+			{
+				"course": "SOC SCI 1",
+				"description": "Foundations of Beh Sci",
+				"term": "Second Semester 2016-2017",
+				"grade": "2.25",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 64,
+		"gradeItem": [
+			{
+				"course": "STS 40",
+				"description": "Science, Technology & Society",
+				"term": "Second Semester 2015-2016",
+				"grade": "2.00",
+				"units": "3.00"
+			}
+		]
+	},
+	{
+		"id": 65,
+		"gradeItem": [
+			{
+				"course": "ZOO 10",
+				"description": "Fundamentals of Zoology",
+				"term": "First Semester 2014-2015",
+				"grade": "2.50",
+				"units": "5.00"
+			}
+		]
+	}
+]

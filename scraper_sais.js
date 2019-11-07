@@ -76,47 +76,47 @@ async function playTest(url) {
 
 
 
-  // // **** FRAME ****
-  // await page.goto('https://sais.up.edu.ph/psp/ps/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_MY_CRSEHIST.GBL?PORTALPARAM_PTCNAV=HC_SSS_MY_CRSEHIST_GBL&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=CO_EMPLOYEE_SELF_SERVICE&EOPP.SCLabel=Self%20Service&EOPP.SCPTfname=CO_EMPLOYEE_SELF_SERVICE&FolderPath=PORTAL_ROOT_OBJECT.CO_EMPLOYEE_SELF_SERVICE.HCCC_ACADEMIC_RECORDS.HC_SSS_MY_CRSEHIST_GBL&IsFolder=false');
-  // dumpFrameTree(page.mainFrame(), '');
-  // const frame = page.frames().find(frame => frame.name() === 'TargetContent');
+  // **** FRAME ****
+  await page.goto('https://sais.up.edu.ph/psp/ps/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_MY_CRSEHIST.GBL?PORTALPARAM_PTCNAV=HC_SSS_MY_CRSEHIST_GBL&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=CO_EMPLOYEE_SELF_SERVICE&EOPP.SCLabel=Self%20Service&EOPP.SCPTfname=CO_EMPLOYEE_SELF_SERVICE&FolderPath=PORTAL_ROOT_OBJECT.CO_EMPLOYEE_SELF_SERVICE.HCCC_ACADEMIC_RECORDS.HC_SSS_MY_CRSEHIST_GBL&IsFolder=false');
+  dumpFrameTree(page.mainFrame(), '');
+  const frame = page.frames().find(frame => frame.name() === 'TargetContent');
   
-  // const data = await frame.evaluate(() => {
-  //   const grades = Array.from(document.querySelectorAll('table.PSLEVEL1GRIDWBO > tbody > tr > td'))
-  //   return grades.map(data => data.innerText);
-  // })
+  const data = await frame.evaluate(() => {
+    const grades = Array.from(document.querySelectorAll('table.PSLEVEL1GRIDWBO > tbody > tr > td'))
+    return grades.map(data => data.innerText);
+  })
   
-  // let formatGrade = [];
-  // let counter = 1;
+  let formatGrade = [];
+  let counter = 1;
 
-  // for(i = 0; i < data.length; i += 7) {
-  //   formatGrade.push(
-  //     { 
-  //       id: counter,
-  //       gradeItem: [
-  //         {
-  //           course: data[i],
-  //           description: data [i + 1],
-  //           term: data [i + 2],
-  //           grade: data [i + 3],
-  //           units: data[i + 4],
-  //         }
-  //       ]
-  //     }
-  //   );
-  //   counter++;
-  // }
-  // // console.log(formatGrade);
+  for(i = 0; i < data.length; i += 7) {
+    formatGrade.push(
+      { 
+        id: counter,
+        gradeItem: [
+          {
+            course: data[i],
+            description: data [i + 1],
+            term: data [i + 2],
+            grade: data [i + 3],
+            units: data[i + 4],
+          }
+        ]
+      }
+    );
+    counter++;
+  }
+  // console.log(formatGrade);
 
-  // const fs = require('fs');
-  // const jsonContent = JSON.stringify(formatGrade);
-  // fs.writeFile("info.json", jsonContent, 'utf8', function (err) {
-  //   if (err) {
-  //       return console.log(err);
-  //   }
+  const fs = require('fs');
+  const jsonContent = JSON.stringify(formatGrade);
+  fs.writeFile("info.json", jsonContent, 'utf8', function (err) {
+    if (err) {
+        return console.log(err);
+    }
 
-  //   console.log("The file was saved!");
-  // });
+    console.log("The file was saved!");
+  });
 
 
   // **** SCREENSHOT ****
