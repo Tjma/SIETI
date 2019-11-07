@@ -14,7 +14,7 @@ const getGrades = require('./getGrades')
       //assert.equal(content[0].id,'1');
      // assert.equal(content[64].id,'65')
       //assert.equal(content[0].gradeItem[0],"BIO 1");
-     assert.equal(content[0].gradeItem[0].course,"BIO 1");
+     assert.equal(content[0].gradeItem[0].course,"BIO bolshet");
     //assert.equal(content[0].gradeItem[3],'12.50')
       
   });
